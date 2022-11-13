@@ -1,0 +1,67 @@
+{
+    "basics": {
+      "name": "Diego Fernando Rivas Marroquin",
+      "label": "Fullstack Webbdeveloper",
+      "image": "",
+      "email": "marroquinf656@live.com",
+      "phone": "+46 0729072897",
+      "summary": "My name is Diego and I come from El Salvador. I am an apassionated of computers and have been a person who live knowledge, to understand all i think is interesting or that have some important learning in my life. I like development that because I took this way for some months ago. I like to play footbol, videogames, to read books and discover new things that becasue I will never say no to an adventure",
+      "location": {
+        "address": "Björnsonsgatan 251 A",
+        "postalCode": "14468",
+        "city": "Bromma",
+        "countryCode": "Sv",
+        "region": "Stockholm"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "Fernando",
+        "url": ""
+      }]
+    },
+    "education": [{
+      "institution": "Chas Academy",
+      "url": "https://chasacademy.se/",
+      "area": "Fullstack Development",
+      "studyType": "",
+      "startDate": "2022-09-05",
+      "endDate": "2024-06-20"
+    }],
+    "certificates": [{
+      "name": "FreeCodeCamp",
+      "date": "2022-07-20",
+      "issuer": "basics skills",
+      "url": "https://www.freecodecamp.org"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }]
+  }
