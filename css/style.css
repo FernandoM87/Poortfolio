@@ -84,10 +84,6 @@ ul{
 
 /* Navbar */
 #navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	display: flex;
 	overflow: auto;
 	padding-bottom: 20px;
 }
@@ -398,18 +394,9 @@ ul{
 
 /* Navbar */
 #navbar {
-	position: fixed;
-	z-index:1000;
-	top:0;
-	margin: auto;
-	width:100%;
+	overflow: auto;
+	padding-bottom: 20px;
 }
-
-header .down{
-	background:rgb(166, 166, 164);
-	padding: 15px 20px;
-} 
-
 
 #navbar a {
 	color: #000;
@@ -427,17 +414,16 @@ a .logo{
 }
 
 #navbar ul {
-	position: relative;
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	float: right;
 }
 
 #navbar ul li a {
-	position: relative;
 	display: flex;
 	justify-content: space-around;
-	 padding: 20px;
+	padding: 20px;
 }
 
 /* Showcase */
