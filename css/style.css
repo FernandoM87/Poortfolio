@@ -40,6 +40,12 @@ a {
 	text-decoration: none;
 }
 
+#myBtn{
+	width:auto;
+	background-color: #191c32;
+	border-color: #191c32;
+}
+
 /* Utility Classes */
 .container {
 	margin: auto;
@@ -85,8 +91,8 @@ ul{
 	top: 0;
 	width: 100%;
 	display: flex;
-	overflow: auto;
-	padding-bottom: 20px;
+	overflow: auto;/* 
+	padding-bottom: 20px; */
 }
 
 #navbar a {
@@ -98,6 +104,7 @@ ul{
 	background: #191c32;
 	border-radius: 25px;
 	transition-delay: 0.2s;
+	padding: 7px;
 }
 
 a .logo{
@@ -190,6 +197,45 @@ a .logo{
 	height: 60px;
 }
 
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px; 
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: 100%; 
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+
 /* FORM STYLE */
 .contact_form{  
 	width: 460px;
@@ -240,22 +286,17 @@ a .logo{
   
   
   button{
+	color: #fff; 
 	height: 45px;
 	margin:30px;   
 	text-transform: uppercase;
-	background-color: #ab4493; 
+	background-color: #ab4493;
 	border-color: #ab4493; 
 	border-style: solid; 
 	border-radius: 10px;  
 	width: 320px;   
 	cursor: pointer;
   }
-  
-  
-  button {
-	color: #fff; 
-  }
-  
   
   span{
 	color: #ab4493; 
@@ -280,28 +321,6 @@ a .logo{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #0e0e0e;   
-  }
-  
-  
-  ::-webkit-input-placeholder {
-   color: #a8a8a8;
-  }
-  
-  
-  ::-webkit-textarea-placeholder {
-   color: #a8a8a8;
-  }
-  
-  
-  .formulario input:focus{
-	outline:0;
-	border: 1px solid #97d848;
-  }
-  
-  
-  .formulario textarea:focus{
-	outline:0;
-	border: 1px solid #97d848;
   }
 	
 }
@@ -345,6 +364,12 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+#myBtn{
+	width:auto;
+	background-color: #191c32;
+	border-color: #191c32;
 }
 
 /* Utility Classes */
@@ -398,6 +423,7 @@ ul{
 
 #navbar a {
 	color: black;
+	margin: 15px ;
 }
 
 #navbar a:hover{
@@ -541,7 +567,44 @@ a .logo{
 	display: block; 
 	float: center;  
   }
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px; 
+	left: 0;
+	top: 100px;
+	width: 100%;
+	height: 100%; 
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4); 
+  }
   
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
   
   button{
 	color: white;
@@ -579,15 +642,6 @@ a .logo{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #0e0e0e;   
-  }
-  
-  ::-webkit-input-placeholder {
-   color: #a8a8a8;
-  }
-  
-  
-  ::-webkit-textarea-placeholder {
-   color: #a8a8a8;
   }
 	
 }
