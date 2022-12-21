@@ -1,0 +1,28 @@
+{
+    "employment": [
+        {
+            "time": "2018-2018",
+            "jobTitle": "Restaurangbiträde",
+            "location": "Stockholm",
+            "text": "working as a store clerk requires a lot of energy and concentration to perform daily tasks."
+        },
+        {
+            "time": "2015-2016",
+            "jobTitle": "Arkiv",
+            "location": "El Salvador",
+            "text": "It was a one-year job in which I had to organize patient documents in a clinical unit in the municipality where I lived"
+        }
+    ],
+    "education": [
+        "2004-2012 - Primary school",
+        "2013-2015 - Highschool: Trade and administration program",
+        "2022 - Fullstack Javscript Web development - In progress"
+       
+    ],
+    "internships": [
+        {
+            "companyName": "Microsoft",
+            "text": "Find errors in the codes and solve them with the tools and skills you have acquired"
+        }
+    ]
+}

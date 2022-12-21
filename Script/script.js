@@ -28,3 +28,61 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+const getInfo = async () => {
+
+  const request = new Request('/resume.json');
+
+  const response = await fetch(request);
+
+  const cvObj = await response.json();
+
+  return cvObj;
+  
+}
+
+const populateCv = (cvObj) => {
+let employmentHtml = ``;
+
+cvObj.employment.forEach(element => {
+  const listItem = `
+  <li">
+  <h5>${element.time}</h5>
+  <p>
+  <span >${element.jobTitle}</span><br>
+  <span>${element.location}</span><br>
+  ${element.text}
+  </p>
+  </li>`;
+
+  employmentHtml +=listItem
+});
+document.getElementById('employmentList').innerHTML = employmentHtml;
+
+let educationHtml = ``;
+cvObj.education.forEach(element => {
+  const listItem = `<li>${element}</li>`;
+
+  educationHtml +=listItem
+  //console.log(cvObj.education);
+});
+
+document.getElementById('educationList').innerHTML = educationHtml;
+
+let internshipsHtml = ``;
+cvObj.internships.forEach(element => {
+  let listItem = `<li>
+  <p>
+  <span >${element.companyName}</span>
+  <span>${element.text}</span><br>
+  </p>
+  </li>`;
+
+  internshipsHtml +=listItem
+  console.log(cvObj.internships);
+});
+document.getElementById('internshipsList').innerHTML = internshipsHtml;
+}
+
+const cvObj = await getInfo();
+populateCv(cvObj);
