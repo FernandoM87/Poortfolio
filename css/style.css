@@ -32,7 +32,8 @@ h4 {
 p {
 	font-size: 1rem;
 	margin: 50px;
-	line-height: 1.7em;
+	line-height: 1.7em; 
+	color: #0e0e0e; 
 }
 
 a {
@@ -248,7 +249,7 @@ a .logo{
   }
   
   
-  button p{
+  button {
 	color: #fff; 
   }
   
@@ -276,12 +277,6 @@ a .logo{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #0e0e0e;   
-  }
-  
-  
-  p{
-	font-size: 14px; 
-	color: #0e0e0e; 
   }
   
   
@@ -341,7 +336,7 @@ h4 {
 
 p {
 	font-size: 1rem;
-	margin: 10px 0;
+	margin: 25px;
 	line-height: 1.7em;
 }
 
@@ -594,13 +589,6 @@ a .logo{
 	padding-bottom: 30px;
 	color: #0e0e0e;   
   }
-  
-  
-  p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-  }
-  
   
   ::-webkit-input-placeholder {
    color: #a8a8a8;
